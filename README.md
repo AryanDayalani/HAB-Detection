@@ -15,3 +15,8 @@ By combining real observations with GAN-generated data, the model achieves bette
 This code implements a GAN-based framework to synthesize realistic Harmful Algal Bloom (HAB) detection datasets. The process begins by defining nine critical marine parameters—including chlorophyll levels, temperature anomalies, and nutrient concentrations—within ecologically valid ranges. A seed dataset (500 samples) is first generated with baseline correlations reflecting real-world relationships, such as the inverse link between chlorophyll and dissolved oxygen, and nutrient-driven chlorophyll increases.
 
 The core architecture uses a 4-layer MLP Generator (transforms noise vectors into synthetic samples) and a 4-layer Discriminator (distinguishes real/fake data). After normalizing data to [-1,1], the GAN undergoes 5000 training epochs where both networks iteratively improve—the generator learns to mimic seed data patterns while the discriminator refines its detection ability.
+
+#Links-and-Citation
+https://data.mendeley.com/datasets/c3792mm5f6/1
+mohan, divya; Dayalani, Aryan; Gupta, Lucky  (2025), “Generative Adversial Network (GAN) Synthesized Dataset on Harmful Algal Bloom (HAB) ”, Mendeley Data, V1, doi: 10.17632/c3792mm5f6.1
+Please use the above mentioned citation from Mendeley to cite our Dataset.
