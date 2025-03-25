@@ -9,3 +9,9 @@ The model's training using Generative Adversarial Networks (GANs) is a significa
 •	Improves the model's ability to detect rare or extreme events
 •	Enhances overall prediction accuracy by exposing the model to a wider range of potential HAB conditions
 By combining real observations with GAN-generated data, the model achieves better generalization and robustness in HAB detection across varied marine environments.
+
+
+# Steps-To-Reproduce
+This code implements a GAN-based framework to synthesize realistic Harmful Algal Bloom (HAB) detection datasets. The process begins by defining nine critical marine parameters—including chlorophyll levels, temperature anomalies, and nutrient concentrations—within ecologically valid ranges. A seed dataset (500 samples) is first generated with baseline correlations reflecting real-world relationships, such as the inverse link between chlorophyll and dissolved oxygen, and nutrient-driven chlorophyll increases.
+
+The core architecture uses a 4-layer MLP Generator (transforms noise vectors into synthetic samples) and a 4-layer Discriminator (distinguishes real/fake data). After normalizing data to [-1,1], the GAN undergoes 5000 training epochs where both networks iteratively improve—the generator learns to mimic seed data patterns while the discriminator refines its detection ability.
