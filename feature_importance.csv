@@ -1,0 +1,14 @@
+Feature,Importance
+Bloom_Index,0.8959075637061737
+Rolling_Chlorophyll_Anomaly,0.1028579469377734
+pH,0.0010571994210365864
+Dissolved_Oxygen,0.00010308257111622742
+Chl_SST_Interaction,6.802642674210764e-05
+Sea_Surface_Temperature,3.781308175079208e-06
+Total_Phosphorus,1.4040812776237705e-06
+Rolling_SST_Anomaly,4.845312750188101e-07
+Total_Nitrogen,2.5562376857609195e-07
+Nutrient_Interaction,2.0379590842750175e-07
+Surface_Chlorophyll,5.159675306361189e-08
+High_Chlorophyll,0.0
+High_SST,0.0
